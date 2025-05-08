@@ -5,17 +5,17 @@ package a;
 
 public class Circle {
 	
-	public double radius;
-	public String color;
+	private double radius;
+	private String color;
 	
 	Circle(){
 		radius = 1.0;
 		color = "blue";
-	}//default constructor
+	}//no arg constructor
 	Circle(double rad, String col){
 		radius = rad;
 		color = col;
-	}
+	}//two arg constructor
 	
 	public double getRadius() {
 		return radius;
