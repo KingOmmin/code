@@ -36,4 +36,9 @@ public class Circle {
 	public double calcCircumference() {
 		return 2* Math.PI* this.radius;
 	}//end method
+	public String toString()
+	{
+		return super.toString() +
+		String.format("%f", radius);
+	}
 }
